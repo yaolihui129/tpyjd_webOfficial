@@ -1,0 +1,306 @@
+#
+#项目属性
+#
+#签证类型
+visa_type=00010001
+#居住要求
+live_requirement=00010002
+#资金要求
+asset=00010003
+#管理经验
+manage=00010004
+#学历要求
+qualifications=00010005
+#语言要求
+language=00010006
+#年龄要求
+age=00010007
+#移民目的
+hotspots=00130001
+#移民预算
+immigration_budget=00010008
+#项目状态
+project_status=0007
+		#项目状态_上线
+		project_status_sx=00070001
+		#项目状态_未开放
+		project_status_wkf=00070002
+		#项目状态_暂停
+		project_status_zt=00070003
+		#项目状态_售罄
+		project_status_sq=00070004
+		
+#项目类型
+project_type=0008
+#项目扩展名片
+project_expands_mp=00180001
+
+#项目级别
+	#一级
+	project_level_one=00260001
+	#二级
+	project_level_two=00260002
+	
+
+#管家评价
+item=0004
+#管家评价项
+stewarditem=00040001
+#服务态度
+service_attitude=000400010001
+#专业知识
+specialized_knowledge=000400010002
+#反馈效率
+feedback_efficiency=000400010003
+#评价选项
+stewarditemitem=00040002
+#很满意
+satisfied=000400020001
+#一般
+general=000400020002
+#不满意
+dissatisfied=000400020003
+#软删除评价标示    (1:表示初始值，未删除 。0:表示已被软删除)
+#如果将 1替换为 0 可以查出所有评价，包含已被软删除的数据
+delete_sign=1
+
+
+#国家
+country=0003
+#中国
+	country_china=000300020001
+
+#客户属性
+cust = 0005
+	#客户状态
+	cust_status = 00050002
+		#待跟进
+		cust_status_tofollow = 000500020004
+	
+	#客户来源
+	cust_source = 00050001
+	#客户来源-微信
+	cust_source_wx = 000500010001
+	#客户来源-免费咨询
+	cust_source_mfzx=000500010005
+	#客户来源-活动报名
+	cust_source_hdbm=000500010008
+	#客户来源-门户注册
+	cust_source_mhzc=000500010012
+	
+	#客户类型-潜在客户
+	cust_type_qz = 000500030001
+	
+##微信绑定
+#未绑定
+bind_status_w = 0
+#已绑定
+bind_status_y = 1
+#已解绑
+bind_status_j = 2
+
+
+#资讯状态
+publish_status = 0014
+	#未发布
+	publish_status_wfb = 00140001
+	#已发布
+	publish_status_yfb = 00140002
+	#已下线
+	publish_status_yxx = 00140003
+
+#媒体类型
+media_type_pic=00200001
+media_type_tv=00200002
+
+#专享活动列表页容量
+exclusive_activity_pagesize = 4
+exclusive_activity_pagesize_index = 8
+
+#栏目结构-生活体验
+	section_life_exp = 0001
+
+#名片客户来源类型
+	#个人名片
+	wx_customer_type_gr=00220002
+	#公司名片
+	wx_customer_type_gs=00220001
+	
+#匹配阈值
+estimate_weight_value=00230003
+
+#问卷版本状态
+question_version_status = 00230002
+	#已发布
+	question_version_status_yfb = 002300020001
+	#未发布
+	question_version_status_wfb = 002300020002
+
+#评估作答模式
+	#单选
+	estimate_answer_danx=002300010001
+	#多选
+	estimate_answer_duox=002300010002
+	#文本
+	estimate_answer_wenb=002300010003
+	
+#评估是否必填
+	#是
+	estimate_isrequired_shi=1
+	
+#评估排序样式
+	#一行
+	one_line_size=10
+	#二行
+	two_line_size=18
+	
+#首页轮播图间隔时间 单位：豪秒
+banner_delay_time = 2000
+
+#推送位置
+	push_location = 0024
+	#微网站
+	push_location_wwz = 00240001
+
+#优选国家-国家列表-国家简介 长度
+	yxgj_gjjj_len = 63
+
+#优选国家-国家列表-首次加载条数、点击加载条数
+	yxgj_init_count = 10
+	yxgj_loading_count = 5
+	
+#栏目类型
+	#生活体验
+	section_type_shty = 00170001
+	#成功案例
+	section_type_cgal = 00170002
+	#移民政策
+	section_type_ymzc = 00170003
+	
+#成功案例、移民政策 首次加载条数、点击“加载更多”一次加载条数
+	alzc_init_count = 15
+	alzc_each_loading_count = 10
+	
+#渠道分销
+	#合作方式
+	cooperation_method = 00250004
+	#事业合伙人(V1.3.0)默认合作方式
+	cooperation_method_partner = 002500040001
+	
+	#代理状态-禁用
+	proxy_status_disabled = 002500030002
+	#代理状态-启用
+	proxy_status_enabled = 002500030001
+	
+	#代理审核状态-未通过
+	proxy_audit_status_nopassed = 002500020002
+	#代理审核状态-新申请
+	proxy_audit_status_new = 002500020001
+	#代理审核状态-已通过
+	proxy_audit_status_passed = 002500020003
+	
+	#代理级别
+	proxy_level_1 = 002500010001
+	proxy_level_2 = 002500010002
+	
+	#会员状态
+	member_status_enabled = 002100010001
+	
+	#分享方式
+	share_method_link = 000500010007
+	share_method_qrcode = 000500010006
+	
+	#生成二维码的宽、高
+	qrcode_width = 300
+	qrcode_height = 300
+	
+	#二维码logo 路径
+	qrcode_logo_path = /WebRoot/resource/images/qrcode_logo.jpeg
+
+#客户反馈选项
+	custinfo_feedback=00050004
+
+#微网站版本
+	v_version=v1.3
+
+#分销等级
+	#一级
+	proxy_level_one=002500010001
+	#二级
+	proxy_level_two=002500010002
+	
+	#代理状态
+	#禁用
+	proxy_status_disabled=002500030002
+	#启用
+	proxy_status_enabled=002500030001
+	
+	#审核状态 
+	#已通过
+	audit_status_passed=002500020003
+	
+	
+#直播相关配置
+	#显示直播的数量
+	live_show_amount = 5 
+	#用户评论刷新频率 （单位：毫秒）
+	message_refresh_rate = 5000
+	#直播间显示评论条数 建议不超过100
+	message_rows = 50
+	
+	#直播状态
+	live_processing = 00290003
+	live_published = 00290002
+	live_nopublished = 00290001
+	live_ended = 00290004
+	
+	#参与方式
+	live_participate_method_application = 002700010002
+	live_participate_method_code = 002700010003
+	live_participate_method_public = 002700010001
+	
+	#申请状态
+	application_method_passed = 002700020001
+	application_method_disallowance = 002700020002
+	application_method_cancel = 002700020003
+	
+	#直播类型
+	live_public_name = 公开
+	live_public = 00280001
+	live_secret_name = 私密
+	live_secret = 00280002
+	
+#专业团队
+professional_team = 0033
+
+
+#友情链接类型
+		#友情链接
+		link_type_friendly=0032000200010001
+		#分公司
+		link_type_branch=0032000200010002
+	
+	#打开方式
+	open_mode=003200020002
+		#新窗口
+		open_mode_blank=0032000200020002
+		#本页面
+		0032000200020001
+		
+	#导航类型
+	menu_type=003200020003
+		#菜单栏
+		menu_type_cdl=0032000200030003
+		#移民国家
+		menu_type_gj=0032000200030001
+		#移民项目
+		menu_type_xm=0032000200030002
+	
+	#导航菜单状态
+		#未发布
+		menu_status_wfb=0032000200040001
+		#已发布
+		menu_status_yfb=0032000200040002
+
+#所属公司
+dict_company = 003200010003

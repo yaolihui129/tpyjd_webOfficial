@@ -1,0 +1,21 @@
+jdbcUrl = jdbc:mysql://192.168.21.10/yaolhtest?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password = root
+devMode = true
+
+#官网网站页面根路径地址
+TPYJD_OFFICIAL_JSP_BASE_PATH=/views/
+
+CRM_API_URL = http://192.168.21.177/distributor.action
+
+#正式环境为1，测试环境为0
+product=0
+
+#memcached地址
+memcachedURL=192.168.21.10:11211
+
+#移民项目路径
+PROJECT_URL=/project
+
+#移民国家路径
+COUNTRY_URL=/country

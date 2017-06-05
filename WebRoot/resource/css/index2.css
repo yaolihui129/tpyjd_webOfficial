@@ -1,0 +1,935 @@
+@media screen and (max-width: 1600px) and (min-width: 1441px) {
+  .banner {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  .banner .bannerContent {
+    width: 1600px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+    overflow: hidden;
+  }
+  .banner .bannerContent .banner-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .banner .bannerContent .banner-slider .img {
+    width: 100%;
+    height: 100%;
+    min-width: 1170px;
+  }
+  .index2-main {
+    top: 9%;
+    height: 80%;
+  }
+  .Recent-title {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    min-height: 45px;
+  }
+  .Recent-content dl dt {
+    width: 30%;
+  }
+  .Recent-content dl dt img {
+    width: 90%;
+    margin-top: 10%;
+  }
+  .Recent-content dl dd {
+    width: 70%;
+  }
+  .Recent-content dl dd .js-messageBtn {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Recent-content dl dd h4 {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .Recent-content dl dd p {
+    font-size: 12px;
+    min-height: 18px;
+    background-size: 16px auto;
+  }
+  .Recent-content dl dd .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-content dl dd .Recent-time {
+    margin-top: 5px;
+  }
+  .Recent-bottom {
+    width: 100%;
+    height: 73%;
+    padding-top: 0px;
+  }
+  .Recent-bottom .Recent-list h4 {
+    font-size: 12px;
+  }
+  .Recent-bottom .Recent-list p {
+    min-height: 18px;
+    font-size: 12px;
+    background-size: 16px auto;
+  }
+  .Recent-bottom .Recent-list .Recent-time {
+    margin-top: 0%;
+  }
+  .Recent-bottom .Recent-list .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-bottom .Recent-list button {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Policies-top .Recent-title {
+    width: 100%;
+    height: 17%;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp {
+    width: 50px;
+    height: 50px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-day {
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-date {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-title {
+    color: #303030;
+    font-size: 14px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-main {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list1 {
+    height: 46%;
+  }
+  .Policies-top .Policies-content .Policies-list1 dl dd {
+    display: block;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .Policies-top .Policies-content .Policies-list1 .Policies-list-content {
+    width: 100%;
+    height: 54px;
+    line-height: 18px;
+    color: #717171;
+    font-size: 12px;
+    background: none;
+    text-indent: 0;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .Policies-bottom .live-content .live-left dl dt,
+  .Policies-bottom .live-content .live-right dl dt {
+    width: 70%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-masagge,
+  .Policies-bottom .live-content .live-right dl dd .live-masagge {
+    color: #282828;
+    font-size: 14px;
+    margin-bottom: 1%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-time,
+  .Policies-bottom .live-content .live-right dl dd .live-time,
+  .Policies-bottom .live-content .live-left dl dd .live-adress,
+  .Policies-bottom .live-content .live-right dl dd .live-adress {
+    color: #616161;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .tpy-header-bar {
+    height: 55px;
+  }
+  .tpy-header-bar .index-header-nav {
+    padding-top: 0px;
+  }
+  .tpy-header-bar .tpy-header-status {
+    padding-top: 13px;
+  }
+  .banner {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  .banner .bannerContent {
+    width: 1300px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -650px;
+    overflow: hidden;
+  }
+  .banner .bannerContent .banner-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .banner .bannerContent .banner-slider li {
+    width: 100%;
+    height: 100%;
+  }
+  .select {
+    border: 1px solid #ccc;
+  }
+  .select p {
+    font-size: 16px;
+    line-height: 50px;
+    min-height: 50px;
+    border: none;
+  }
+  .select ul {
+    width: 380px;
+    border: 1px solid #ccc;
+    border-top: transparent;
+    display: none;
+    background: #fff;
+    z-index: 3;
+    position: absolute;
+    top: 104%;
+    left: -0.2%;
+  }
+  .search .btn {
+    font-size: 15px;
+  }
+  .search .btn .select-small {
+    font-size: 12px;
+  }
+  .index2-main {
+    top: 9%;
+  }
+  .Recent-title {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    min-height: 45px;
+  }
+  .input i {
+    top: 22px;
+  }
+  .input.up i {
+    top: 12px;
+  }
+  .Recent-content dl dt {
+    width: 30%;
+  }
+  .Recent-content dl dt img {
+    width: 90%;
+    margin-top: 10%;
+  }
+  .Recent-content dl dd {
+    width: 70%;
+  }
+  .Recent-content dl dd button {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Recent-content dl dd h4 {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .Recent-content dl dd p {
+    font-size: 12px;
+    min-height: 18px;
+    background-size: 16px auto;
+  }
+  .Recent-content dl dd .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-content dl dd .Recent-time {
+    margin-top: 5px;
+  }
+  .Recent-bottom {
+    width: 100%;
+    height: 73%;
+    padding-top: 0px;
+  }
+  .Recent-bottom .Recent-list h4 {
+    font-size: 12px;
+  }
+  .Recent-bottom .Recent-list .Recent-time {
+    margin-top: 0%;
+  }
+  .Recent-bottom .Recent-list p {
+    min-height: 18px;
+    font-size: 12px;
+    background-size: 16px auto;
+  }
+  .Recent-bottom .Recent-list .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-bottom .Recent-list button {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Policies-top .Recent-title {
+    width: 100%;
+    height: 17%;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp {
+    width: 50px;
+    height: 50px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-day {
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-date {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-title {
+    color: #303030;
+    font-size: 14px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-main {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list1 {
+    height: 46%;
+  }
+  .Policies-top .Policies-content .Policies-list1 dl dd {
+    display: block;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .Policies-top .Policies-content .Policies-list1 .Policies-list-content {
+    width: 100%;
+    height: 54px;
+    line-height: 18px;
+    color: #717171;
+    font-size: 12px;
+    background: none;
+    text-indent: 0;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .Policies-bottom .live-content .live-left dl dt,
+  .Policies-bottom .live-content .live-right dl dt {
+    width: 70%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-masagge,
+  .Policies-bottom .live-content .live-right dl dd .live-masagge {
+    color: #282828;
+    font-size: 14px;
+    margin-bottom: 1%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-time,
+  .Policies-bottom .live-content .live-right dl dd .live-time,
+  .Policies-bottom .live-content .live-left dl dd .live-adress,
+  .Policies-bottom .live-content .live-right dl dd .live-adress {
+    color: #616161;
+    font-size: 12px;
+  }
+  .index3-pic span {
+    font-size: 22px;
+  }
+  .index3-pic .index3-pic-mark h4 {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .index3-pic .index3-pic-mark .biaoqian em {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-style: normal;
+  }
+  .index3-pic .index3-pic-mark .tedian {
+    width: 90%;
+    height: 36px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+  }
+  .index3-pic1 {
+    width: 90%;
+  }
+  .index3-pic2 {
+    width: 65%;
+    margin-top: 10%;
+  }
+  .index4-main {
+    width: 55%;
+  }
+  .index5-title {
+    bottom: 4%;
+  }
+  .Company-main .Company-content .Company-left .index5-img1 {
+    height: 65%;
+  }
+  .Company-main .Company-content .Company-left .index5-img1 img {
+    width: 48%;
+  }
+  .Company-main .Company-content .Company-left .index5-img2 {
+    padding-top: 3%;
+  }
+  .Company-main .Company-content .Company-left .index5-img2 img {
+    width: 75%;
+  }
+  .index5-pic {
+    width: 43%;
+    top: 12%;
+  }
+  .index5-title {
+    width: 311px;
+    height: 110px;
+  }
+  .index5-title .index5-font1 {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .index5-title .index5-font2 {
+    font-size: 25px;
+  }
+  .index6-content-title p {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 3%;
+  }
+  .Consultant-content .Consultant-img {
+    width: 20%;
+  }
+  .Consultant-content .Consultant-img .Consultant-text .Consultant-text-name {
+    padding-top: 4%;
+    font-size: 12px;
+  }
+  .Consultant-content .Consultant-img .Consultant-text .Consultant-text-font {
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark .Consultant-mark-name {
+    padding-top: 4%;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark .Consultant-mark-font {
+    line-height: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+  }
+  /*弹框样式*/
+  .leave-message-box {
+    width: 26%;
+    border: 1px solid #1878fc;
+    background: #FFFFFF;
+    position: absolute;
+    z-index: 999999;
+  }
+  .leave-message-box h2 {
+    font-size: 14px;
+    padding: 1% 6%;
+    color: #FFFFFF;
+    background: #1878fc;
+  }
+  .leave-message-box ul {
+    padding: 1% 0;
+  }
+  .leave-message-box ul li {
+    padding: 5px 35px;
+    font-size: 12px;
+  }
+  .leave-message-box ul li label {
+    font-size: 12PX;
+    min-width: 40PX;
+  }
+  .leave-message-box ul li input {
+    border: 1px solid #d1dae8;
+    width: 75%;
+    padding: 1px;
+  }
+  .leave-message-box ul li .person-tips {
+    font-size: 12px;
+    padding-top: 1px;
+  }
+  .leave-message-box .blue-btn {
+    background: #1878fc !important;
+    margin-bottom: 5px;
+    float: none;
+    color: #fff;
+    padding: 2px 20px;
+    font-size: 12px;
+  }
+  .Consultant-content {
+    padding-top: 1%;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1281px) {
+  .tpy-header-bar {
+    height: 55px;
+  }
+  .tpy-header-bar .index-header-nav {
+    padding-top: 0px;
+  }
+  .tpy-header-bar .tpy-header-status {
+    padding-top: 13px;
+  }
+  .banner {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  .banner .bannerContent {
+    width: 1400px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    overflow: hidden;
+  }
+  .banner .bannerContent .banner-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .select {
+    border: 1px solid #ccc;
+  }
+  .select p {
+    font-size: 16px;
+    line-height: 50px;
+    min-height: 50px;
+    border: none;
+  }
+  .select ul {
+    width: 380px;
+    border: 1px solid #ccc;
+    border-top: transparent;
+    display: none;
+    background: #fff;
+    z-index: 3;
+    position: absolute;
+    top: 104%;
+    left: -0.2%;
+  }
+  .search .btn {
+    font-size: 15px;
+  }
+  .search .btn .select-small {
+    font-size: 12px;
+  }
+  .index2-main {
+    top: 9%;
+    height: 90%;
+  }
+  .input i {
+    top: 22px;
+  }
+  .input.up i {
+    top: 12px;
+  }
+  .Recent-title {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    min-height: 45px;
+  }
+  .Recent-content dl dt {
+    width: 30%;
+  }
+  .Recent-content dl dt img {
+    width: 90%;
+    margin-top: 10%;
+  }
+  .Recent-content dl dd {
+    width: 70%;
+  }
+  .Recent-content dl dd .js-messageBtn {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Recent-content dl dd h4 {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .Recent-content dl dd p {
+    font-size: 12px;
+    min-height: 18px;
+    background-size: 16px auto;
+  }
+  .Recent-content dl dd .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-content dl dd .Recent-time {
+    margin-top: 5px;
+  }
+  .Recent-bottom {
+    width: 100%;
+    height: 73%;
+    padding-top: 0px;
+  }
+  .Recent-bottom .Recent-list h4 {
+    font-size: 12px;
+  }
+  .Recent-bottom .Recent-list p {
+    min-height: 18px;
+    font-size: 12px;
+    background-size: 16px auto;
+  }
+  .Recent-bottom .Recent-list .Recent-time {
+    margin-top: 0%;
+  }
+  .Recent-bottom .Recent-list .Recent-adress {
+    background-position: 0 -62px;
+  }
+  .Recent-bottom .Recent-list button {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+  }
+  .Policies-top .Recent-title {
+    width: 100%;
+    height: 17%;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp {
+    width: 50px;
+    height: 50px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-day {
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-date {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-title {
+    color: #303030;
+    font-size: 14px;
+  }
+  .Policies-top .Policies-content .Policies-list dl dd .Policies-list-main {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 30px;
+  }
+  .Policies-top .Policies-content .Policies-list1 {
+    height: 46%;
+  }
+  .Policies-top .Policies-content .Policies-list1 dl dd {
+    display: block;
+    height: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .Policies-top .Policies-content .Policies-list1 .Policies-list-content {
+    width: 100%;
+    height: 54px;
+    line-height: 18px;
+    color: #717171;
+    font-size: 12px;
+    background: none;
+    text-indent: 0;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .Policies-bottom .live-content .live-left dl dt,
+  .Policies-bottom .live-content .live-right dl dt {
+    width: 70%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-masagge,
+  .Policies-bottom .live-content .live-right dl dd .live-masagge {
+    color: #282828;
+    font-size: 14px;
+    margin-bottom: 1%;
+  }
+  .Policies-bottom .live-content .live-left dl dd .live-time,
+  .Policies-bottom .live-content .live-right dl dd .live-time,
+  .Policies-bottom .live-content .live-left dl dd .live-adress,
+  .Policies-bottom .live-content .live-right dl dd .live-adress {
+    color: #616161;
+    font-size: 12px;
+  }
+  .index3-pic span {
+    font-size: 22px;
+  }
+  .index3-pic .index3-pic-mark h4 {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .index3-pic .index3-pic-mark .biaoqian em {
+    padding: 3px 10px;
+    line-height: 20px;
+    font-size: 12px;
+    font-style: normal;
+  }
+  .index3-pic .index3-pic-mark .tedian {
+    width: 90%;
+    height: 36px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+  }
+  .index3-pic1 {
+    width: 90%;
+  }
+  .index3-pic2 {
+    width: 65%;
+    margin-top: 10%;
+  }
+  .index4-main {
+    width: 55%;
+    top: 12%;
+  }
+  .index5-title {
+    bottom: 4%;
+  }
+  .Company-main .Company-content .Company-left .index5-img1 {
+    height: 65%;
+  }
+  .Company-main .Company-content .Company-left .index5-img1 img {
+    width: 48%;
+  }
+  .Company-main .Company-content .Company-left .index5-img2 {
+    padding-top: 3%;
+  }
+  .Company-main .Company-content .Company-left .index5-img2 img {
+    width: 75%;
+  }
+  .index5-title {
+    width: 311px;
+    height: 110px;
+  }
+  .index5-title .index5-font1 {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+  .index5-title .index5-font2 {
+    font-size: 25px;
+  }
+  .index5-pic {
+    width: 43%;
+    top: 12%;
+  }
+  .index6-content-title p {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 3%;
+  }
+  .Consultant-content .Consultant-img {
+    width: 20%;
+  }
+  .Consultant-content .Consultant-img .Consultant-text .Consultant-text-name {
+    padding-top: 4%;
+    font-size: 12px;
+  }
+  .Consultant-content .Consultant-img .Consultant-text .Consultant-text-font {
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark .Consultant-mark-name {
+    padding-top: 4%;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark .Consultant-mark-font {
+    line-height: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+  }
+  /*弹框样式*/
+  .leave-message-box {
+    width: 26%;
+    border: 1px solid #1878fc;
+    background: #FFFFFF;
+    position: absolute;
+    z-index: 999999;
+  }
+  .leave-message-box h2 {
+    font-size: 14px;
+    padding: 1% 6%;
+    color: #FFFFFF;
+    background: #1878fc;
+  }
+  .leave-message-box ul {
+    padding: 1% 0;
+  }
+  .leave-message-box ul li {
+    padding: 5px 35px;
+    font-size: 12px;
+  }
+  .leave-message-box ul li label {
+    font-size: 12PX;
+    min-width: 40PX;
+  }
+  .leave-message-box ul li input {
+    border: 1px solid #d1dae8;
+    width: 75%;
+    padding: 1px;
+  }
+  .leave-message-box ul li .person-tips {
+    font-size: 12px;
+    padding-top: 1px;
+  }
+  .leave-message-box .blue-btn {
+    background: #1878fc !important;
+    margin-bottom: 5px;
+    float: none;
+    color: #fff;
+    padding: 2px 20px;
+    font-size: 12px;
+  }
+  .Consultant-content {
+    padding-top: 1%;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .tpy-header-bar .index-header-nav {
+    padding-top: 10px;
+  }
+  .search {
+    margin: 0.3% auto;
+  }
+  .banner {
+    width: 100%;
+    height: 60%;
+    position: relative;
+  }
+  .banner .bannerContent {
+    width: 2560px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -1280px;
+    overflow: hidden;
+  }
+  .banner .bannerContent .banner-slider {
+    width: 100%;
+    height: 100%;
+  }
+  .bx-wrapper .bx-pager {
+    top: 90%;
+  }
+  .select p {
+    line-height: 90px;
+  }
+  .input i {
+    top: 40px;
+  }
+  .tpy-header-bar .index-header-nav ul .index-country-box {
+    top: 60px;
+  }
+  .Recent-bottom .Recent-list {
+    height: 16%;
+  }
+  .index2-main-left {
+    width: 48%;
+    padding-top: 3.5%;
+  }
+  .index2-main-right {
+    padding-top: 4%;
+  }
+  .Policies-top .Policies-content .Policies-list {
+    height: 23%;
+  }
+  .Policies-top .Policies-content .Policies-list1 {
+    height: 38%;
+    margin-bottom: 2%;
+  }
+  .index-2 .fuhao1 {
+    bottom: 6%;
+  }
+  .Recent-content dl dd h4 {
+    font-size: 18px;
+  }
+  Recent-content dl dd p {
+    margin-top: 3%;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp {
+    width: 80px;
+    height: 80px;
+  }
+  .Policies-top .Policies-content .Policies-list dl .country-timestamp .country-timestamp-day {
+    height: 50px;
+    line-height: 50px;
+  }
+  .index3-center .index3-title .Preferably-main {
+    width: 370px;
+  }
+  .index5-title {
+    width: 380px;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark {
+    height: 40%;
+  }
+  .select p {
+    line-height: 80px;
+  }
+  .index-search {
+    bottom: -15%;
+  }
+  .index1-main {
+    width: 1170px;
+    margin: 0 auto;
+    height: 30%;
+    padding-top: 6%;
+  }
+  .index2-main {
+    width: 60%;
+    height: 75%;
+    background: #fff;
+    position: absolute;
+    left: 25%;
+    top: 13%;
+  }
+  .index4-main .index4-img .index4-img-mark h4 {
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  .Consultant-content .Consultant-img .Consultant-pic-mark .Consultant-mark-name {
+    padding-top: 10%;
+  }
+  .index-icon {
+    padding-top: 5%;
+  }
+}

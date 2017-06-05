@@ -1,0 +1,24 @@
+
+.imgContainer{
+	width:100%;
+	min-width:1000px;
+	position:relative;
+	height:925px;
+	background-position:center 0;
+	background-repeat:no-repeat;
+	opacity:0;
+	-webkit-transition:opacity 1s ease-out;
+	transition:opacity 1s ease-out;
+	-moz-transition:opacity 1s ease-out;
+	-ms-transition:opacity 1s ease-out;
+	-o-transition:opacity 1s ease-out;
+}
+
+.box{ width:100%; height:509px; margin:0px auto; padding:1px; text-align:center; background-color:#e6f0ec;}
+.center { width:1000px; height:auto; margin:0px auto; padding:1px;}
+.center .Message-ctr{ width:1000px; text-align:center; height:auto; margin-top:200px; }
+.center input{ width:447px; height:53px; margin-top:33px; padding-left:5px; font-size:18px; }
+.center select{ width:449px; height:53px; margin-top:33px; margin-left:0px;  font-size:18px; color:#666; }
+.center .btn1{ width:494px; height:73px; margin-left:-36px; margin-top:70px; background:none; border:none; cursor:pointer; }
+.center .btn2{ width:147px; height:33px; display:block; margin-left:842px; margin-top:17px; }
+

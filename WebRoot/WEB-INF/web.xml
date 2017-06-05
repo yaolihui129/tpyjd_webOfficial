@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <filter>
+    <filter-name>jfinal</filter-name>
+    <filter-class>com.jfinal.core.JFinalFilter</filter-class>
+    <init-param>
+      <param-name>configClass</param-name>
+      <param-value>cn.pacificimmi.common.config.TpyjdConfig</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>jfinal</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/404.html</location>
+  </error-page>
+  <!-- 设置session过期时间  -->
+  	<session-config>    
+		<session-timeout>2880</session-timeout>
+	</session-config>
+  <jsp-config>
+    <taglib>
+      <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+      <taglib-location>/WEB-INF/c.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+</web-app>

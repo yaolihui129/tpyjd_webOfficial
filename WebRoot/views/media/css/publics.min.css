@@ -1,0 +1,64 @@
+.w_content {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.w_content .w_left {
+	width: 15%;
+	border: 1px solid white;
+	min-height: 400px;
+}
+
+.w_content .w_left li {
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	line-height: 30px;
+	padding-left: 20px;
+}
+
+.w_content .w_right {
+    width: 74%;
+    min-height: 400px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin-right: 13%;
+    margin-left: 13%;
+}
+
+.w_icon_ok {
+	display: block;
+	float: left;
+	margin-top: 7px;
+	width: 16px;
+	height: 16px;
+	background: url('/images/icon_ok.gif');
+}
+
+.w_icon_not {
+	display: block;
+	float: left;
+	margin-top: 7px;
+	width: 16px;
+	height: 16px;
+	background: url('/images/icon_not.gif');
+}
+
+.w_mian {
+	display: none;
+}
+
+.w_curr {
+	display: block;
+}
+
+.w_col-sm-2 {
+	width: 10%;
+}
+
+.w_col-sm-10 {
+	width: 35%;
+}

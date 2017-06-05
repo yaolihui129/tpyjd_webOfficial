@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.header .nav > li.dropdown .dropdown-toggles {
+  		margin-top:3px !important;
+  	}	
+.btn{
+	margin:5px 10px 0 0;
+}
+.btn.black-stripe {
+    border-left: 3px solid #434343;
+}
+.pagination{margin:0px 0}
+.marg-r10{
+	margin-right:10px;
+}
+.marg-r50{
+	margin-right:50px;
+}
+.lh30{
+	line-height:30px;
+}
+.marg0{
+	margin:0px;
+}
+.marg-b20{
+	margin-bottom:20px;
+}
+.marg-b10{
+	margin-bottom:10px;
+}
+.marg-t0{
+	margin-top:0px;
+}
+.marg-l30{
+	margin-left:30px;
+}
+.bodr-bm1{
+	border-bottom:1px solid #ddd;
+}
+.clear{
+	clear:both;
+	margin:0px;
+}
+.btn.gray-stripe {
+    border-left: 3px solid #9F9F9F;
+}
+.marg-t40{
+	margin-top:-40px;
+}
+.marg-t20{
+	margin-top:20px;
+}
+.qhui{
+	color:#cdcdcd;
+}
+.redtext{
+	color:#d84a38;
+}
+.pad-b10{
+	padding-bottom:10px;
+}
+.fz-20px{
+	font-size:20px;
+}
+
+/* lightblue */
+.timeline li.timeline-lightblue .timeline-body:after {
+	border-right-color:#7dafff;
+}
+
+.timeline li.timeline-lightblue .timeline-body {
+	 background: #7dafff;
+}
+
+.timeline li.timeline-lightblue .timeline-time span.time {
+	 color: #4b8df8; 
+}
+.timeline > li .timeline-time span.time {
+	font-size: 20px;
+}
+.timeline > li .timeline-time span.date {
+	font-size: 14px;
+}
+.timeline > li .timeline-content { 
+	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+
+
+
+.portlet-title .tools > a {
+  height: 20px;
+}
+
+.dropdown-menu li > a {
+  padding: 3px 0 6px 20px;
+}
+
+.tree a{
+	color:#333;
+}
+.active_red{
+	color:#e02222;
+}
+
+.control-label{
+	font-weight:bold;
+}
+.control-group{
+	margin-bottom:20px;
+}
